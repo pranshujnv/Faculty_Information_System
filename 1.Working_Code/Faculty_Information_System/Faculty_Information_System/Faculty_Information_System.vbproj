@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{374FC080-2663-4071-A0DE-427932F31085}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Faculty_Information_System.My.MyApplication</StartupObject>
+    <RootNamespace>Faculty_Information_System</RootNamespace>
+    <AssemblyName>Faculty_Information_System</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Faculty_Information_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Faculty_Information_System.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin_Approval_User_Control.Designer.vb">
+      <DependentUpon>Admin_Approval_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Approval_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_Delete_User_Control.Designer.vb">
+      <DependentUpon>Admin_Delete_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Delete_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_Edit_User_Control.Designer.vb">
+      <DependentUpon>Admin_Edit_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Edit_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Admin_User_Control.Designer.vb">
+      <DependentUpon>Admin_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Approved_User_Control.Designer.vb">
+      <DependentUpon>Approved_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Approved_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Change_Password_User_Control.Designer.vb">
+      <DependentUpon>Change_Password_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Change_Password_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Edit_Teacher_User_Control.Designer.vb">
+      <DependentUpon>Edit_Teacher_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Edit_Teacher_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forget_User_Control.Designer.vb">
+      <DependentUpon>Forget_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forget_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Admin.Designer.vb">
+      <DependentUpon>Form_Admin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Admin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Encryption.Designer.vb">
+      <DependentUpon>Form_Encryption.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Encryption.vb" />
+    <Compile Include="Form_Internship.Designer.vb">
+      <DependentUpon>Form_Internship.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Internship.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Notification.Designer.vb">
+      <DependentUpon>Form_Notification.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Notification.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HomePage_User_Control.Designer.vb">
+      <DependentUpon>HomePage_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="HomePage_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Interested_Students_User_Control.Designer.vb">
+      <DependentUpon>Interested_Students_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Interested_Students_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Login_USer_Control.Designer.vb">
+      <DependentUpon>Login_USer_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login_USer_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Notice_List_User_Control.Designer.vb">
+      <DependentUpon>Notice_List_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notice_List_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Notice_User_Control.Designer.vb">
+      <DependentUpon>Notice_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notice_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Notification_User_Control.Designer.vb">
+      <DependentUpon>Notification_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notification_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Register_User_Control.Designer.vb">
+      <DependentUpon>Register_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Register_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Search_User_Control.Designer.vb">
+      <DependentUpon>Search_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Search_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Teacher_DatabaseDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Teacher_DatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Homepage.Designer.vb">
+      <DependentUpon>Teacher_Homepage.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher_Homepage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View_Teacher_User_Control.Designer.vb">
+      <DependentUpon>View_Teacher_User_Control.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View_Teacher_User_Control.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Admin_Approval_User_Control.resx">
+      <DependentUpon>Admin_Approval_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Delete_User_Control.resx">
+      <DependentUpon>Admin_Delete_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_Edit_User_Control.resx">
+      <DependentUpon>Admin_Edit_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin_User_Control.resx">
+      <DependentUpon>Admin_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Approved_User_Control.resx">
+      <DependentUpon>Approved_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Change_Password_User_Control.resx">
+      <DependentUpon>Change_Password_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Edit_Teacher_User_Control.resx">
+      <DependentUpon>Edit_Teacher_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forget_User_Control.resx">
+      <DependentUpon>Forget_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Admin.resx">
+      <DependentUpon>Form_Admin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Encryption.resx">
+      <DependentUpon>Form_Encryption.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Internship.resx">
+      <DependentUpon>Form_Internship.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Notification.resx">
+      <DependentUpon>Form_Notification.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HomePage_User_Control.resx">
+      <DependentUpon>HomePage_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Interested_Students_User_Control.resx">
+      <DependentUpon>Interested_Students_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_USer_Control.resx">
+      <DependentUpon>Login_USer_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notice_List_User_Control.resx">
+      <DependentUpon>Notice_List_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notice_User_Control.resx">
+      <DependentUpon>Notice_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notification_User_Control.resx">
+      <DependentUpon>Notification_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Register_User_Control.resx">
+      <DependentUpon>Register_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_User_Control.resx">
+      <DependentUpon>Search_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_Homepage.resx">
+      <DependentUpon>Teacher_Homepage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View_Teacher_User_Control.resx">
+      <DependentUpon>View_Teacher_User_Control.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="Teacher_DatabaseDataSet.xsc">
+      <DependentUpon>Teacher_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Teacher_DatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Teacher_DatabaseDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Teacher_DatabaseDataSet.xss">
+      <DependentUpon>Teacher_DatabaseDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Teacher_Database.accdb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

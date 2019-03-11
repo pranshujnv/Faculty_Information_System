@@ -1,0 +1,128 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Faculty_Information_System
+</name>
+</assembly>
+<members>
+<member name="P:Faculty_Information_System.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Faculty_Information_System.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:Faculty_Information_System.My.Resources.Resources._1157b6fd85f1ff2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Faculty_Information_System.My.Resources.Resources._1455112129579294_370151679690931_1357398443_n">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Faculty_Information_System.My.Resources.Resources.black_background_00313351">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Faculty_Information_System.My.Resources.Resources.blur_blurred_background_colors_754082">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Faculty_Information_System.My.Resources.Resources.IIT_Guwahati_Logo_svg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:Faculty_Information_System.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet.Notification_TableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet.Student_App_TableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet.Teacher_Info_TableDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet.Notification_TableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet.Student_App_TableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet.Teacher_Info_TableRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet.Notification_TableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet.Student_App_TableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet.Teacher_Info_TableRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.Notification_TableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.Student_App_TableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.Teacher_Info_TableTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Faculty_Information_System.Teacher_DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Faculty_Information_System.Teacher_DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Faculty_Information_System.Teacher_DatabaseDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateAll(Faculty_Information_System.Teacher_DatabaseDataSet)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:Faculty_Information_System.Teacher_DatabaseDataSetTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
